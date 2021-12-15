@@ -50,3 +50,55 @@
     margin: 10px 0;
     height: 50px;
 }
+
+.owner > div {
+   margin: 0 5px;
+}
+
+.ownerImageContainer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.ownerImageContainer > img {
+    height: 100%;
+    width: 100%;
+}
+
+.ownerDetails {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.ownerNameAndHandle {
+    flex: 1;
+}
+
+.ownerHandle {
+    color: #00ebfe;
+}
+
+.ownerLink {
+    padding: 12px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    margin: 0 0 0 10px;
+}
+
+.ownerLink > img {
+    height: 100%;
+    width: 100%;
+}
+
+.ownerId {
+    color: #a1a5b0;
+    font-size: 10px;
+    margin: 2px;
+}
