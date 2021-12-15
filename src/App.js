@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import CollectionCard from "./components/CollectionCard";
 import Header from "./components/Header";
 import axios from "axios";
 import PunkList from "./components/PunkList";
